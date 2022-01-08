@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+@font-face {
+    font-family: Westlake;
+    src: url(font/Westlake.otf);
+  }
+  @font-face {
+    font-family: Astrella;
+    src: url(font/Astrella.woff);
+  }
+  @font-face {
+    font-family: latto;
+    src: url(font/Lato-Black.ttf);
+  }
+  @font-face {
+    font-family: colage;
+    src: url(font/CollegiateInsideFLF.ttf);
+  }
+
+body{
+    
+    background-color:#9c9e9e;
+}
+
+
+/*Start index page*/
+.container_login{
+    padding: 20px 10px;
+    background-color:rgb(64, 94, 89);
+    
+}
+#hello{
+    color: white;
+}
+.login{
+    text-align: right;
+    margin-right:10px ;
+    
+}
+.login_input{
+    width: 170px;
+    padding: 5px 7px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.login_input:focus {
+    outline: 1px solid rgb(252, 250, 250);
+  }
+.login_btn{
+    padding: 5px 7px;
+    margin: 4px 0;
+    width: 170px;
+    color: white;
+    background-color: rgb(47, 151, 73);
+    font-family: colage;
+    border-radius: 5px;
+    border: 3px solid black;
+    
+}
+.login_btn:hover{
+   border-color: yellowgreen;
+   transition: 0.5s;
+}
+.login_btn:active{
+    outline: 3px solid white;
+    transition: 0.5s;
+ }
+ .create_acount_btn{
+    padding: 5px 7px;
+    margin: 4px 0;
+    width: 170px;
+    color: white;
+    background-color: rgb(1, 49, 13);
+    font-family: colage;
+    border-radius: 5px;
+    border: 3px solid black;
+    
+}
+.create_acount_btn:hover{
+   border-color: yellowgreen;
+   transition: 0.5s;
+}
+.create_acount_btn:active{
+    outline: 3px solid white;
+    transition: 0.5s;
+ }
+
+
+
+/*News container on index page*/
+ .container{
+    margin:0 auto; 
+    max-width:1100px; 
+    padding:15px; 
+}
+.content{
+    margin-bottom:100px;
+}
+.title_admin{
+    text-align:center; 
+}
+.date{
+    margin-bottom: 20px;
+}
+.new_image{
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    
+
+}
+.new_image img{
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    padding:20px; 
+    white-space: pre-wrap; 
+    overflow-wrap: break-word;
+    background-color: #f8f8f8;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: none;
+}
+.keep_reading{
+    margin: 10px 0px;
+    color: darkblue;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+
+/*Index news*/
+.container{
+    margin:0 auto; 
+    max-width:1100px; 
+    padding: 20px; 
+    border: 5px solid black;
+}
+.container h2{
+    text-align: center; 
+    margin: 0px 20px 40px 20px;
+}
+.container .content{
+    padding:20px;
+    margin: 20px 0px;
+}
+.container img{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    max-width: 600px; 
+    height:auto;
+}
+/*End index page*/
+
+
+
+
+/*START Signin*/
+#required{
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+body .wraper{
+    background-color:rgb(64, 94, 89);
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+    border: 5px solid black;
+    
+    margin: 0 auto;
+}
+
+
+.create_acount form{
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.create_acount form label{
+   color: white;
+   font-size: medium;
+    
+}
+.create_acount form input{
+    width: 100%;
+    padding: 5px 7px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.input{
+    background-color: #e2e2e2;
+}
+
+
+.create_btn{
+   
+    color: white;
+    background-color: rgb(47, 151, 73);
+    font-size: 17px;
+    font-family: colage;
+    
+}
+.create_btn:hover{
+   border-color: yellowgreen;
+   transition: 0.5s;
+}
+.create_btn:active{
+    outline: 3px solid white;
+    transition: 0.5s;
+ }
+ .back_btn{
+    color: white;
+    background-color: rgb(1, 49, 13);
+    font-size: 17px;
+    font-family: colage;
+    
+}
+.back_btn:hover{
+   border-color: yellowgreen;
+   transition: 0.5s;
+}
+.back_btn:active{
+    outline: 3px solid white;
+    transition: 0.5s;
+ }
+ /*Sign IN over*/
+
+
+
+
+/*START Header */
+
+.print_news_btn{
+    
+    padding: 3px;
+    margin:5px 5px 0px 10px;
+    width: 120px;
+    color: white;
+    background-color: rgb(47, 151, 73);
+    border: 3px solid black;
+    
+}
+.print_news_btn:hover{
+   border-color: yellowgreen;
+   transition: 0.5s;
+}
+.print_news_btn:active{
+    outline: 3px solid white;
+    transition: 0.5s;
+ }
+
+
+
+ .logout_form{
+    float: right;
+    margin:5px 5px 0px 10px;
+}
+ .log_out{
+    background-color: rgb(1, 49, 13);
+    color: white;
+    padding: 3px;
+    width:120px;
+    transition: 0.5s;
+    width:120px;
+    border: 3px solid black;
+}
+.log_out:hover{
+    border-color: yellowgreen;
+   transition: 0.5s;
+    background-color: #d80000;
+}
+.log_out:focus{
+    outline: 3px solid white;
+}
+
+
+/*MENU*/
+.welcome{
+color: white;
+margin: 30px 20px 50px 20px;
+}
+.nav_container{
+    background-color:rgb(64, 94, 89);
+    border: 1px solid rgb(0, 0, 0);
+    width:100%; 
+    height:auto;
+    
+   
+}
+.nav_links{
+    text-align: right;
+    margin: 50px;
+}
+.nav_links a{
+    text-decoration:none; 
+    color:rgb(255, 247, 247); 
+    font-size:30px; 
+    margin-right:50px;
+}
+
+
+
+
+.nav_resp {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .nav_resp a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .nav_resp a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .nav_resp {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  #close_btn{
+    display: none;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 25px;
+    background-color:rgb(64, 94, 89);
+  }
+  #close_btn span i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px; 
+    cursor:pointer;
+    color: white;
+  }
+  @media screen and (max-width: 860px) {
+    .nav_container{
+        display: none;
+    }
+    #close_btn{
+        display: block;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Header over*/
+
+
+
+
+
+/*list news start*/
+.hidden_edit{
+    
+    padding: 3px;
+    margin:5px 5px 0px 10px;
+    width: 120px;
+    color: white;
+    background-color: rgb(47, 151, 73);
+    border: 3px solid black;
+    
+}
+.hidden_edit:hover{
+   border-color: yellowgreen;
+   transition: 0.5s;
+}
+.hidden_edit:active{
+    outline: 3px solid white;
+    transition: 0.5s;
+ }
+ /*End list news*/
+
+
+ /*Start Admin page*/
+ 
+.input_news textarea {
+    max-width: 800px;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin:10px 0px;
+  }
+  .input_news{
+    padding: 30px 0px;
+    display: block;
+    max-width: 800px;
+    margin:0 auto;
+    
+}
+
+.comment{              
+    position: relative;
+    margin:0 auto;
+    max-width:800px; 
+    padding:15px 15px 20px 15px;
+    background-color:rgb(156, 158, 158);
+    border: 1px solid white;
+}
+.input_comment textarea {
+    max-width: 800px;
+    width: 100%;
+    height: 100px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin:10px 0px;
+  }
+  .input_comment{
+    padding: 30px 0px;
+    display: block;
+    max-width: 800px;
+    margin:0 auto;
+    
+}
+.input_comment form{
+    text-align: right;
+    
+}
+.send_btn{
+    width:120px;
+     float:right; 
+     margin: 5px;
+     background-color: black;
+     color: white;
+}
+.send_btn:hover{
+    background-color: rgba(0, 5, 1, 0.582);
+
+} 
+.edit_coment{
+    width:120px;
+    padding: 2px;
+    background-color: black;
+    color: white;
+}
+.edit_coment:hover{
+    border-color: yellowgreen;
+   transition: 0.5s;
+   background-color: rgb(47, 151, 73);
+}
+.delete_comment{
+    width:120px;
+    padding: 2px;
+    background-color: black;
+    color: white;
+}
+.delete_comment:hover{
+    border-color: yellowgreen;
+   transition: 0.5s;
+   background-color: red;
+}
+
+
+.file::-webkit-file-upload-button {
+    cursor: pointer;
+    padding: 2px;
+    width: 120px;
+    color: white;
+    background-color: red;
+    border: 3px solid black;
+  }
+  .file:hover::-webkit-file-upload-button {
+    background-color: black;
+    border-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    
+  }
+  .file:visited::-webkit-file-upload-button {
+    background-color: black;
+  }
