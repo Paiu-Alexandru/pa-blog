@@ -1,2 +1,2 @@
 # pa-blog
-This is a blog with the role of administrator and simple user, it contains an authentication form and a login, comments etc ...
+My blog
