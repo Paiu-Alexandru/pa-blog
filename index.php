@@ -2,7 +2,7 @@
 require'inc/listnews.inc.php';
 require ('conn/conn.php');
 ?>
-
+<!--Wow Interesant-->
 <!doctype html>
 <html>  
     <header>
