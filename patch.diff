@@ -1,0 +1,25 @@
+From c9374ee385b941d676046ec19b67946eba05f637 Mon Sep 17 00:00:00 2001
+From: sasapaiu1990 <sasapaiu1990@gmail.com>
+Date: Mon, 10 Jan 2022 15:07:03 +0100
+Subject: [PATCH] wow
+
+---
+ index.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/index.php b/index.php
+index b4d26c8..67d4c19 100644
+--- a/index.php
++++ b/index.php
+@@ -2,7 +2,7 @@
+ require'inc/listnews.inc.php';
+ require ('conn/conn.php');
+ ?>
+-
++<!--Wow Interesant-->
+ <!doctype html>
+ <html>  
+     <header>
+-- 
+2.34.1.windows.1
+
