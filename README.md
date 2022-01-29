@@ -1,7 +1,7 @@
 # pa-blog
 This is a blog with the role of administrator and simple user.<br />
-A simple user can insert / update / delete comments.
-The administrator can delete any news, any comment, but cannot edit someone else's comment, the administrator has the option to enter news to renew and delete them.
+A simple user can insert / update / delete comments.<br />
+The administrator can delete any news, any comment, but cannot edit someone else's comment, the administrator has the option to enter news to renew and delete them.<br />
 
 
 ![Screenshot (40)](https://user-images.githubusercontent.com/62449452/151660961-a8befd22-4591-4894-af49-686bebb793c8.png)
